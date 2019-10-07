@@ -1,0 +1,71 @@
+﻿{
+  "ProgId": "Depart",
+  "DisplayName": "部門",
+  "Tables": [
+    {
+      "TableName": "Depart",
+      "DbTableName": "Depart",
+      "DisplayName": "部門",
+      "MasterKey": "",
+      "PrimaryKey": "DepartID",
+      "Fields": [
+        {
+          "FieldName": "SYS_CompanyID",
+          "DisplayName": "公司編號",
+          "DbType": "String",
+          "DbFieldName": "SYS_CompanyID",
+          "FieldType": "DataField",
+          "MaxLength": 10,
+          "AllowNull": false,
+          "LinkFieldName": "",
+          "LinkProgId": "",
+          "LinkReturnFields": []
+        },
+        {
+          "FieldName": "SYS_ID",
+          "DisplayName": "部門編號",
+          "DbType": "String",
+          "DbFieldName": "SYS_ID",
+          "FieldType": "DataField",
+          "MaxLength": 10,
+          "AllowNull": false,
+          "LinkFieldName": "",
+          "LinkProgId": "",
+          "LinkReturnFields": []
+        },
+        {
+          "FieldName": "SYS_ViewID",
+          "DisplayName": "部門代碼",
+          "DbType": "String",
+          "DbFieldName": "SYS_ViewID",
+          "FieldType": "DataField",
+          "MaxLength": 10,
+          "AllowNull": false,
+          "LinkFieldName": "",
+          "LinkProgId": "",
+          "LinkReturnFields": []
+        },
+        {
+          "FieldName": "SYS_Name",
+          "DisplayName": "部門名稱",
+          "DbType": "String",
+          "DbFieldName": "SYS_Name",
+          "FieldType": "DataField",
+          "MaxLength": 10,
+          "AllowNull": false,
+          "LinkFieldName": "",
+          "LinkProgId": "",
+          "LinkReturnFields": []
+        }
+      ],
+      "EntityInstanceType": {
+        "AssemblyFile": "Gat.Business.Hum",
+        "TypeName": "Gat.Business.Hum.DepartEntity"
+      },
+      "SortFields": [],
+      "FilterItems": [],
+      "TablePrimaryKey": null,
+      "IsCreateDbTable": true
+    }
+  ]
+}

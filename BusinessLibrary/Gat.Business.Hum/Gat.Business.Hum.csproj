@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Library\Gat.Base\Gat.Base.csproj" />
+    <ProjectReference Include="..\..\Library\Gat.Business\Gat.Business.csproj" />
+    <ProjectReference Include="..\..\Library\Gat.Cache\Gat.Cache.csproj" />
+    <ProjectReference Include="..\..\Library\Gat.Database\Gat.Database.csproj" />
+    <ProjectReference Include="..\..\Library\Gat.Define\Gat.Define.csproj" />
+  </ItemGroup>
+
+</Project>

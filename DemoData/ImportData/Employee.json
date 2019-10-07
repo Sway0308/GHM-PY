@@ -1,0 +1,26 @@
+[
+  {
+    "SYS_CompanyID": "SCS001",
+    "SYS_ID": "C001",
+    "SYS_ViewID": "0183",
+    "SYS_Name": "John",
+    "DutyID": "B001",
+    "DepartID": "A002"
+  },
+  {
+    "SYS_CompanyID": "SCS001",
+    "SYS_ID": "C002",
+    "SYS_ViewID": "0211",
+    "SYS_Name": "Bob",
+    "DutyID": "B003",
+    "DepartID": "A001"
+  },
+  {
+    "SYS_CompanyID": "SCS001",
+    "SYS_ID": "C003",
+    "SYS_ViewID": "0349",
+    "SYS_Name": "Elisa",
+    "DutyID": "B001",
+    "DepartID": "A003"
+  }
+]

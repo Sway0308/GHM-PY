@@ -1,0 +1,20 @@
+[
+  {
+    "SYS_CompanyID": "SCS001",
+    "SYS_ID": "B001",
+    "SYS_ViewID": "Boss",
+    "SYS_Name": "老闆"
+  },
+  {
+    "SYS_CompanyID": "SCS001",
+    "SYS_ID": "B002",
+    "SYS_ViewID": "Manager",
+    "SYS_Name": "經理"
+  },
+  {
+    "SYS_CompanyID": "SCS001",
+    "SYS_ID": "B003",
+    "SYS_ViewID": "Employee",
+    "SYS_Name": "員工"
+  }
+]

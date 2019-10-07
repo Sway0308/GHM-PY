@@ -1,0 +1,49 @@
+﻿{
+  "ProgId": "Employee",
+  "TableName": "Employee",
+  "DisplayName": "員工",
+  "Fields": [
+    {
+      "FieldName": "SYS_CompanyID",
+      "DisplayName": "公司編號",
+      "DbType": "String",
+      "MaxLength": 10,
+      "AllowNull": false
+    },
+    {
+      "FieldName": "SYS_ID",
+      "DisplayName": "員工編號",
+      "DbType": "String",
+      "MaxLength": 10,
+      "AllowNull": false
+    },
+    {
+      "FieldName": "SYS_ViewID",
+      "DisplayName": "員工代碼",
+      "DbType": "String",
+      "MaxLength": 10,
+      "AllowNull": false
+    },
+    {
+      "FieldName": "SYS_Name",
+      "DisplayName": "員工名稱",
+      "DbType": "String",
+      "MaxLength": 10,
+      "AllowNull": false
+    },
+    {
+      "FieldName": "DepartID",
+      "DisplayName": "部門編號",
+      "DbType": "String",
+      "MaxLength": 10,
+      "AllowNull": false
+    },
+    {
+      "FieldName": "DutyID",
+      "DisplayName": "職缺編號",
+      "DbType": "String",
+      "MaxLength": 10,
+      "AllowNull": false
+    }
+  ]
+}

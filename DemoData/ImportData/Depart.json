@@ -1,0 +1,20 @@
+[
+  {
+    "SYS_CompanyID": "SCS001",
+    "SYS_ID": "A001",
+    "SYS_ViewID": "R&D",
+    "SYS_Name": "研發"
+  },
+  {
+    "SYS_CompanyID": "SCS001",
+    "SYS_ID": "A002",
+    "SYS_ViewID": "Q&A",
+    "SYS_Name": "品管"
+  },
+  {
+    "SYS_CompanyID": "SCS001",
+    "SYS_ID": "A003",
+    "SYS_ViewID": "PM",
+    "SYS_Name": "專案管理"
+  }
+]

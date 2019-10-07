@@ -1,0 +1,35 @@
+﻿{
+  "ProgId": "Depart",
+  "TableName": "Depart",
+  "DisplayName": "部門",
+  "Fields": [
+    {
+      "FieldName": "SYS_CompanyID",
+      "DisplayName": "公司編號",
+      "DbType": "String",
+      "MaxLength": 10,
+      "AllowNull": false
+    },
+    {
+      "FieldName": "SYS_ID",
+      "DisplayName": "部門編號",
+      "DbType": "String",
+      "MaxLength": 10,
+      "AllowNull": false
+    },
+    {
+      "FieldName": "SYS_ViewID",
+      "DisplayName": "部門代碼",
+      "DbType": "String",
+      "MaxLength": 10,
+      "AllowNull": false
+    },
+    {
+      "FieldName": "SYS_Name",
+      "DisplayName": "部門名稱",
+      "DbType": "String",
+      "MaxLength": 10,
+      "AllowNull": false
+    }
+  ]
+}

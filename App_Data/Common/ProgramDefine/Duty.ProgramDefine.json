@@ -1,0 +1,71 @@
+﻿{
+  "ProgId": "Duty",
+  "DisplayName": "職缺",
+  "Tables": [
+    {
+      "TableName": "Duty",
+      "DbTableName": "Duty",
+      "DisplayName": "職缺",
+      "MasterKey": "",
+      "PrimaryKey": "DutyID",
+      "Fields": [
+        {
+          "FieldName": "SYS_CompanyID",
+          "DisplayName": "公司編號",
+          "DbType": "String",
+          "DbFieldName": "SYS_CompanyID",
+          "FieldType": "DataField",
+          "MaxLength": 10,
+          "AllowNull": false,
+          "LinkFieldName": "",
+          "LinkProgId": "",
+          "LinkReturnFields": []
+        },
+        {
+          "FieldName": "SYS_ID",
+          "DisplayName": "職缺編號",
+          "DbType": "String",
+          "DbFieldName": "SYS_ID",
+          "FieldType": "DataField",
+          "MaxLength": 10,
+          "AllowNull": false,
+          "LinkFieldName": "",
+          "LinkProgId": "",
+          "LinkReturnFields": []
+        },
+        {
+          "FieldName": "SYS_ViewID",
+          "DisplayName": "職缺代碼",
+          "DbType": "String",
+          "DbFieldName": "SYS_ViewID",
+          "FieldType": "DataField",
+          "MaxLength": 10,
+          "AllowNull": false,
+          "LinkFieldName": "",
+          "LinkProgId": "",
+          "LinkReturnFields": []
+        },
+        {
+          "FieldName": "SYS_Name",
+          "DisplayName": "職缺名稱",
+          "DbType": "String",
+          "DbFieldName": "SYS_Name",
+          "FieldType": "DataField",
+          "MaxLength": 10,
+          "AllowNull": false,
+          "LinkFieldName": "",
+          "LinkProgId": "",
+          "LinkReturnFields": []
+        }
+      ],
+      "EntityInstanceType": {
+        "AssemblyFile": "Gat.Business.Hum",
+        "TypeName": "Gat.Business.Hum.DutyEntity"
+      },
+      "SortFields": [],
+      "FilterItems": [],
+      "TablePrimaryKey": null,
+      "IsCreateDbTable": true
+    }
+  ]
+}

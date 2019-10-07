@@ -1,0 +1,169 @@
+﻿{
+  "ProgId": "Employee",
+  "DisplayName": "員工",
+  "Tables": [
+    {
+      "TableName": "Employee",
+      "DbTableName": "Employee",
+      "DisplayName": "員工",
+      "MasterKey": "",
+      "PrimaryKey": "EmployeeID",
+      "Fields": [
+        {
+          "FieldName": "SYS_CompanyID",
+          "DisplayName": "公司編號",
+          "DbType": "String",
+          "DbFieldName": "SYS_CompanyID",
+          "FieldType": "DataField",
+          "MaxLength": 10,
+          "AllowNull": false,
+          "LinkFieldName": "",
+          "LinkProgId": "",
+          "LinkReturnFields": []
+        },
+        {
+          "FieldName": "SYS_ID",
+          "DisplayName": "員工編號",
+          "DbType": "String",
+          "DbFieldName": "SYS_ID",
+          "FieldType": "DataField",
+          "MaxLength": 10,
+          "AllowNull": false,
+          "LinkFieldName": "",
+          "LinkProgId": "",
+          "LinkReturnFields": []
+        },
+        {
+          "FieldName": "SYS_ViewID",
+          "DisplayName": "員工代碼",
+          "DbType": "String",
+          "DbFieldName": "SYS_ViewID",
+          "FieldType": "DataField",
+          "MaxLength": 10,
+          "AllowNull": false,
+          "LinkFieldName": "",
+          "LinkProgId": "",
+          "LinkReturnFields": []
+        },
+        {
+          "FieldName": "SYS_Name",
+          "DisplayName": "員工名稱",
+          "DbType": "String",
+          "DbFieldName": "SYS_Name",
+          "FieldType": "DataField",
+          "MaxLength": 10,
+          "AllowNull": false,
+          "LinkFieldName": "",
+          "LinkProgId": "",
+          "LinkReturnFields": []
+        },
+        {
+          "FieldName": "DepartID",
+          "DisplayName": "部門編號",
+          "DbType": "String",
+          "DbFieldName": "DepartID",
+          "FieldType": "DataField",
+          "MaxLength": 10,
+          "AllowNull": false,
+          "LinkFieldName": "",
+          "LinkProgId": "Depart",
+          "LinkReturnFields": [
+            {
+              "SourceField": "SYS_ID",
+              "DestField": "DepartID"
+            },
+            {
+              "SourceField": "SYS_ViewID",
+              "DestField": "TMP_DepartID"
+            },
+            {
+              "SourceField": "SYS_Name",
+              "DestField": "TMP_DepartName"
+            }
+          ]
+        },
+        {
+          "FieldName": "TMP_DepartID",
+          "DisplayName": "部門代碼",
+          "DbType": "String",
+          "DbFieldName": "TMP_DepartID",
+          "FieldType": "LinkField",
+          "MaxLength": 0,
+          "AllowNull": false,
+          "LinkFieldName": "DepartID",
+          "LinkProgId": "",
+          "LinkReturnFields": []
+        },
+        {
+          "FieldName": "TMP_DepartName",
+          "DisplayName": "部門名稱",
+          "DbType": "String",
+          "DbFieldName": "TMP_DepartName",
+          "FieldType": "LinkField",
+          "MaxLength": 0,
+          "AllowNull": false,
+          "LinkFieldName": "DepartID",
+          "LinkProgId": "",
+          "LinkReturnFields": []
+        },
+        {
+          "FieldName": "DutyID",
+          "DisplayName": "職缺編號",
+          "DbType": "String",
+          "DbFieldName": "DutyID",
+          "FieldType": "DataField",
+          "MaxLength": 10,
+          "AllowNull": false,
+          "LinkFieldName": "",
+          "LinkProgId": "Duty",
+          "LinkReturnFields": [
+            {
+              "SourceField": "SYS_ID",
+              "DestField": "DutyID"
+            },
+            {
+              "SourceField": "SYS_ViewID",
+              "DestField": "TMP_DutyID"
+            },
+            {
+              "SourceField": "SYS_Name",
+              "DestField": "TMP_DutyName"
+            }
+          ]
+        },
+        {
+          "FieldName": "TMP_DutyID",
+          "DisplayName": "職缺代碼",
+          "DbType": "String",
+          "DbFieldName": "TMP_DutyID",
+          "FieldType": "LinkField",
+          "MaxLength": 0,
+          "AllowNull": false,
+          "LinkFieldName": "DutyID",
+          "LinkProgId": "",
+          "LinkReturnFields": []
+        },
+        {
+          "FieldName": "TMP_DutyName",
+          "DisplayName": "職缺名稱",
+          "DbType": "String",
+          "DbFieldName": "TMP_DutyName",
+          "FieldType": "LinkField",
+          "MaxLength": 0,
+          "AllowNull": false,
+          "LinkFieldName": "DutyID",
+          "LinkProgId": "",
+          "LinkReturnFields": []
+        }
+      ],
+      "EntityInstanceType": {
+        "AssemblyFile": "Gat.Business.Hum",
+        "TypeName": "Gat.Business.Hum.EmployeeEntity"
+      },
+      "SortFields": [],
+      "FilterItems": [],
+      "TablePrimaryKey": null,
+      "IsCreateDbTable": true
+    }
+  ]
+}

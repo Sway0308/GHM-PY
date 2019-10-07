@@ -1,0 +1,29 @@
+﻿{
+  "DisplayName": "人資管理",
+  "Items": [
+    {
+      "ProgId": "Depart",
+      "DisplayName": "部門",
+      "BusinessInstanceType": {
+        "AssemblyFile": "Gat.Business.Hum",
+        "TypeName": "Gat.Business.Hum.DepartBL"
+      }
+    },
+    {
+      "ProgId": "Duty",
+      "DisplayName": "職務",
+      "BusinessInstanceType": {
+        "AssemblyFile": "Gat.Business.Hum",
+        "TypeName": "Gat.Business.Hum.DutyBL"
+      }
+    },
+    {
+      "ProgId": "Employee",
+      "DisplayName": "員工",
+      "BusinessInstanceType": {
+        "AssemblyFile": "Gat.Business.Hum",
+        "TypeName": "Gat.Business.Hum.EmployeeBL"
+      }
+    }
+  ]
+}

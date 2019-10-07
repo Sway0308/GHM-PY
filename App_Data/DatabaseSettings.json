@@ -1,0 +1,12 @@
+﻿{
+  "Items": [
+    {
+      "DatabaseID": "001",
+      "DisplayName": "Demo",
+      "DbServer": "localhost",
+      "DbName": "SkyDb",
+      "LoginID": "sa",
+      "Password": "Hn54510058"
+    }
+  ]
+}

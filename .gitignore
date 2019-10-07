@@ -3,3 +3,23 @@
 ################################################################################
 
 /Application/SettingHelper/bin/Debug
+/.vs
+/Application/SettingHelper/obj/Debug/netcoreapp2.1
+/Application/SettingHelper/obj
+/BusinessLibrary/Gat.Business.Hum/bin/Debug/netcoreapp2.1
+/BusinessLibrary/Gat.Business.Hum/obj/Debug/netcoreapp2.1
+/BusinessLibrary/Gat.Business.Hum/obj/Release/netcoreapp2.1
+/BusinessLibrary/Gat.Business.Hum/obj/Debug/netcoreapp3.0
+/BusinessLibrary/Gat.Business.Hum/obj
+/Library/Gat.Base/bin/Debug
+/Library/Gat.Business/bin/Debug
+/Library/Gat.Business/obj
+/Library/Gat.Cache/bin/Debug
+/Library/Gat.Cache/obj
+/Library/Gat.Database/bin/Debug
+/Library/Gat.Database/obj
+/Library/Gat.Setting/bin/Debug
+/Library/Gat.Define/bin/Debug
+/Library/Gat.Define/obj
+/Library/Gat.Base/obj
+/Library/Gat.Setting/obj
